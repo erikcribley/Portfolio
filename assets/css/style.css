@@ -10,12 +10,6 @@ body {
   height: 100%;
 }
 
-.wrapper {
-  position: relative;
-  min-height: 100%;
-  margin-bottom: -66px;
-}
-
 header {
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -136,11 +130,6 @@ h3 {
   width: 250px;
 }
 
-.push {
-  height: 66px;
-  clear: both;
-}
-
 footer {
   border-top: 8px solid #4aaaa5;
   background: #666;
@@ -150,7 +139,6 @@ footer {
 }
 
 @media screen and (max-width:980px) {
-
   header {
     width: 660px;
   }
@@ -165,40 +153,33 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-    header {
-        width: 100%;
-    }
-    
-    main {
-        width: auto;
-    }
+  header {
+    width: 100%;
+  }
+  
+  main {
+    width: auto;
+  }
 
-    .portfolio {
-      width: auto;
-    }
-
-    footer {
-        width: 100%;
-    }
+  .portfolio {
+    width: auto;
+  }
 }
 
 @media screen and (max-width:665px) {
   .frame {
     float: none;
   }
-}
 
-@media screen and (max-width:640px) {
-    .bio-pic {
-        display: block;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .bio-pic {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
 
-    p {
+  p {
     clear: both;
-    }
+  }
 }
 
 @media screen and (max-width:423px) {
