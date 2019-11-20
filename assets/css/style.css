@@ -46,8 +46,8 @@ main {
   float: left;
 }
 
-.bio {
-  padding-top: 20px;
+.bio { 
+  padding: 20px 0 41px 0;
   border-bottom: 4px solid #ccc;
 }
 
@@ -145,6 +145,10 @@ footer {
 
   main {
     width: 660px;
+  }
+
+  .bio {
+    padding: 20px 0 0 0;
   }
 
   .portfolio {
